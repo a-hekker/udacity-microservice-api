@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![<a-hekker>](https://circleci.com/gh/a-hekker/udacity-microservice-api.svg?style=svg)](https://circleci.com/gh/a-hekker/udacity-microservice-api)
 
 ## Project Overview
 
