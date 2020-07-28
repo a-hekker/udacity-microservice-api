@@ -6,10 +6,15 @@
 # Step 1:
 # Create dockerpath
 # dockerpath=<your docker ID/path>
-
+dockerpath=ashekker/udacitymicroservices
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
 
 # Step 3:
 # Push image to a docker repository
+docker login && docker image tag udacitymicroservices $dockerpath
+
+# Step 3:
+# Push image to a docker repository
+docker image push $dockerpath
