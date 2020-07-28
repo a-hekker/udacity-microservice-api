@@ -1,1 +1,7 @@
-<paste log output from Kubernetes-mediated prediction, here>
+(.devops) aditya@imac-van-eddy udacity-microservice-api % ./run_kubernetes.sh
+Error from server (AlreadyExists): pods "udacitymicroservices" already exists
+NAME                   READY   STATUS    RESTARTS   AGE
+udacitymicroservices   1/1     Running   0          2m25s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
